@@ -43,7 +43,7 @@
 .navbar a{
     text-decoration: none;
     color: #424242;
-    font-size: 18px;
+    font-size: 1.6rem;
 }
 .brand-name{
     font-size: 3rem;
@@ -204,7 +204,7 @@ main{
 }
 .feature-love-details,.feature-love-boxs p{
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #727272;
 }
 .feature-love-details{
@@ -213,7 +213,7 @@ main{
 }
 .feature-love-boxs h4{
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: #131313;
 }
 #feature-side-design{
@@ -222,7 +222,7 @@ main{
 }
 .feature-love-pic img{
     width: 700px;
-    height: 1080px;
+    height: 1480px;
     margin-top: 40px;
 }
 .feature-love-boxs{
@@ -245,6 +245,22 @@ main{
 .feature-love-pic .ex{
     font-weight: normal;
     font-size: 1.5rem;
+}
+
+/* footer styles */
+footer h4{
+    background-color: #FFF4E7;
+    max-width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 380px;
+    margin-top: 130px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #424242;
+    border-radius: 8px;
 }
 /* Responsiveness */
 /* small device */
@@ -283,6 +299,15 @@ main{
         width: 270px;
         margin-left: 20px;
     }
+    footer h4{
+        height: 120px;
+        width: 370px;
+        margin: 40px 10px;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 15px 15px;
+    }
 }
 
 /* medium device */
@@ -317,5 +342,15 @@ main{
         height: 200px;
         width: 270px;
         margin-left: 20px;
+    }
+    footer h4{
+        height: 120px;
+        width: 80%;
+        margin:  90px;
+        text-align: center;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: normal;
+        padding: 15px 15px;
     }
 }
