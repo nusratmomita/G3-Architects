@@ -189,9 +189,67 @@ main{
     margin-left: 105px;
     filter: grayscale(100%);
 }
+
+/* feature-to-love styles*/
+.feature-to-love{
+    max-width: 1440px;
+    display: flex;
+    gap: 180px;
+    margin-top: 130px;
+}
+.feature-love-tittle{
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: #131313;
+}
+.feature-love-details,.feature-love-boxs p{
+    font-weight: normal;
+    font-size: 1rem;
+    color: #727272;
+}
+.feature-love-details{
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.feature-love-boxs h4{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #131313;
+}
+#feature-side-design{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-love-pic img{
+    width: 700px;
+    height: 1080px;
+    margin-top: 40px;
+}
+.feature-love-boxs{
+   box-shadow: 0 4px 30px 0 rgba(0, 0, 0,0.06);
+   padding: 30px;
+   margin-bottom: 20px;
+   border-radius: 8px;
+}
+.feature-love-pic button{
+    width: 340px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+.feature-love-pic .year{
+    font-weight: bold;
+    font-size: 4rem;
+}
+.feature-love-pic .ex{
+    font-weight: normal;
+    font-size: 1.5rem;
+}
 /* Responsiveness */
+/* small device */
 @media screen and (max-width:576px){
-    .navbar,.features{
+    .navbar,.features,.feature-to-love{
         flex-direction: column;
     }
     .banner-tittle{
@@ -217,8 +275,17 @@ main{
     .fact-details{
         font-size: 1.5rem;
     }
+    .feature-love-pic img{
+        max-width: 100%;
+    }
+    .feature-love-pic button{
+        height: 200px;
+        width: 270px;
+        margin-left: 20px;
+    }
 }
 
+/* medium device */
 @media screen and (min-width:576px) and (max-width:990px) {
     .navbar{
         flex-direction: column;
@@ -242,5 +309,13 @@ main{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 50px;
+    }
+    .feature-love-pic img{
+        max-width: 100%;
+    }
+    .feature-love-pic button{
+        height: 200px;
+        width: 270px;
+        margin-left: 20px;
     }
 }
